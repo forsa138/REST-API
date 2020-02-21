@@ -17,8 +17,8 @@ app.post('/addProduct',(req, res)=>{
 
 //simulacion de productos relacionado con los dias
 app.get('/evaluateProducts/:dias',(req, res)=>{
-    var dias = req.params.dias;
-    res.json({'el dia es': + dias});
+    var dia = req.params.dias;
+    res.json({'el dia es': + dia});
 
 })
 
